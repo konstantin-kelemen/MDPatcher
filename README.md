@@ -6,17 +6,17 @@ It is a little known fact but the SEGA Saturn was designed to also accept Megadr
 
 It is possible to connect one to a Saturn by making a custom adapter using the following pin assignments (from the SMPC manual):
 
-| Saturn | MD/Genesis |
-|--------|------------|
-| 1 VCC  | 5          |
-| 2 D1   | 2          |
-| 3 D0   | 1          |
-| 4 S0   | 7          |
-| 5 S1   | 9          |
-| 6 5V   | 6          |
-| 7 D3   | 4          |
-| 8 D2   | 3          |
-| 9 GND  | 8          |
+| Pin ID | Saturn | MD/Genesis |
+|--------|--------|------------|
+| VCC    | 1      | 5          |
+| D1     | 2      | 2          |
+| D0     | 3      | 1          |
+| S0     | 4      | 7          |
+| S1     | 5      | 9          |
+| 5V     | 6      | 6          |
+| D3     | 7      | 4          |
+| D2     | 8      | 3          |
+| GND    | 9      | 8          |
 
 Not much Saturn software works with the Megadrive controller out of the box, but luckily the Saturn BIOS does and most software developed by using the SGL library appears to, as well. 
 The rule of thumb is to first test whether the game works without any modification, and if it does not, then attempt to patch it.
