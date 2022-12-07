@@ -48,5 +48,7 @@ To patch a game image, simply open the disc image file. MDPatcher will do its wo
 ***************
 
 Giuseppe Gatta/nextvolume
+
 Web: http://unhaut.x10host.com/mdpatcher
+
 Email: tails92@gmail.com
