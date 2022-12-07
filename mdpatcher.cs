@@ -248,7 +248,8 @@ class MDPatcher : Form
 		tbox.Text += stringToAppend + "\n";
 		tbox.ScrollToCaret();
 	}
-		
+	
+	[STAThread]	
 	public static void Main(string[] args)
 	{
 		Application.Run(new MDPatcher());
